@@ -189,7 +189,7 @@ double POGNON(int tour) {
 
 On remarquera la **notation ternaire**, qui nous permet de l'écrire simplement et de manière compacte tout en restant lisible.
 
-## Partie 3 : jeu principale
+## Partie 3 : jeu principal
 
 ### Menu principal
 
@@ -338,7 +338,7 @@ if (EGAL(saisie, uq[5])) {
 			scanf_s(" %1s", saisie, 2);
 			if (EGAL(saisie, "C")) {
 				nextValide = 1;
-				TOUR(numero + 1, questions);
+				pognon = TOUR(numero + 1, questions);
 			} else if (EGAL(saisie, "A")) {
 				nextValide = 1;
 			}
